@@ -1,9 +1,9 @@
 package com.cane;
 
-import com.cane.block.TileEntityExtractor;
-import com.cane.block.TileEntityInfuser;
-import com.cane.block.TileEntityMachine;
-import com.cane.block.TileEntityRecycler;
+import com.cane.tileentity.TileEntityExtractor;
+import com.cane.tileentity.TileEntityInfuser;
+import com.cane.tileentity.TileEntityMachine;
+import com.cane.tileentity.TileEntityRecycler;
 
 public class Machine
 {
@@ -16,6 +16,7 @@ public class Machine
 		FERTALIZER("Cane Fertalizer"),
 		SOUL_GROWER("Soul Grower"),
 		CANE_HARVESTER("Cane Harvester"),
+		FUEL_EXTRACTOR("Cane Fuel Extractor"),
 		CANE_HOLDER("Cane Holder");
 			
 		public String name;

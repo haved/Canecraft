@@ -3,11 +3,11 @@ package com.cane;
 import com.cane.block.ContainerExtractor;
 import com.cane.block.ContainerInfuser;
 import com.cane.block.ContainerRecycler;
-import com.cane.block.TileEntityExtractor;
-import com.cane.block.TileEntityInfuser;
-import com.cane.block.TileEntityMachine;
-import com.cane.block.TileEntityRecycler;
 import com.cane.client.*;
+import com.cane.tileentity.TileEntityExtractor;
+import com.cane.tileentity.TileEntityInfuser;
+import com.cane.tileentity.TileEntityMachine;
+import com.cane.tileentity.TileEntityRecycler;
 
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.client.gui.inventory.GuiContainer;

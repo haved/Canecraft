@@ -1,6 +1,7 @@
 package com.cane.block;
 
-import com.cane.block.TileEntityExtractor;
+import com.cane.tileentity.TileEntityExtractor;
+import com.cane.tileentity.TileEntityMachine;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Slot;

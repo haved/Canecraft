@@ -6,7 +6,7 @@ import net.minecraftforge.client.MinecraftForgeClient;
 
 import com.cane.CommonProxy;
 import com.cane.Reference;
-import com.cane.block.TileEntityMachine;
+import com.cane.tileentity.TileEntityMachine;
 
 public class ClientProxy extends CommonProxy
 {

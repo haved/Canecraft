@@ -4,6 +4,7 @@ import java.util.Random;
 
 import com.cane.CaneCraft;
 import com.cane.Reference;
+import com.cane.tileentity.TileEntityCane;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

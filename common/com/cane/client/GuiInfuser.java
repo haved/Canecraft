@@ -4,7 +4,7 @@ import org.lwjgl.opengl.GL11;
 
 import com.cane.Reference;
 import com.cane.block.ContainerInfuser;
-import com.cane.block.TileEntityInfuser;
+import com.cane.tileentity.TileEntityInfuser;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.entity.player.EntityPlayer;

@@ -3,6 +3,10 @@ package com.cane;
 import com.cane.Machine.TYPE;
 import com.cane.block.*;
 import com.cane.item.*;
+import com.cane.tileentity.TileEntityCane;
+import com.cane.tileentity.TileEntityExtractor;
+import com.cane.tileentity.TileEntityInfuser;
+import com.cane.tileentity.TileEntityRecycler;
 
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -155,7 +159,7 @@ public class CaneCraft
 	
 	private void addMachineCrafting()
 	{
-		GameRegistry.addRecipe(new ItemStack(Blocks.machine, 8, 7), "GDG", "DWD", "SSS",
+		GameRegistry.addRecipe(new ItemStack(Blocks.machine, 8, 8), "GDG", "DWD", "SSS",
 				'G', Block.glowStone,
 				'D', Block.dirt,
 				'W', Item.bucketWater,

@@ -1,5 +1,7 @@
 package com.cane.block;
 
+import com.cane.tileentity.TileEntityMachine;
+
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;

@@ -2,9 +2,9 @@ package com.cane;
 
 import java.io.File;
 
-import com.cane.block.TileEntityCane;
-import com.cane.block.TileEntityRecycler;
 import com.cane.item.ItemCane;
+import com.cane.tileentity.TileEntityCane;
+import com.cane.tileentity.TileEntityRecycler;
 
 import net.minecraftforge.common.Configuration;
 

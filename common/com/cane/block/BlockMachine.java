@@ -2,6 +2,7 @@ package com.cane.block;
 
 import com.cane.CaneCraft;
 import com.cane.Machine;
+import com.cane.tileentity.TileEntityMachine;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityLiving;
@@ -88,13 +89,13 @@ public class BlockMachine extends BlockCC
 			if(side == 3)return (16 * 4) + metadata;
 			return 16 * 2;
 		}
-		else if(metadata == 7)
+		else if(metadata == 8)
 		{	
 			return (16 * 15) + (side > 1 ? 2 : side);
 		}
 		else
 		{
-			return (16 * 15) + metadata - 7;
+			return (16 * 15) + metadata - 8;
 		}
 	}
 	
@@ -132,7 +133,7 @@ public class BlockMachine extends BlockCC
 	public boolean canSustainPlant(World world, int x, int y, int z,
 			ForgeDirection direction, IPlantable plant)
 	{
-		if(world.getBlockMetadata(x, y, z) == 7)
+		if(world.getBlockMetadata(x, y, z) == 8)
 		{   
 	        if(plant.getPlantType(world, x, y + 1, z) == EnumPlantType.Beach)
 	        {

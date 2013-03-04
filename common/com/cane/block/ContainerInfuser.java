@@ -1,5 +1,8 @@
 package com.cane.block;
 
+import com.cane.tileentity.TileEntityInfuser;
+import com.cane.tileentity.TileEntityMachine;
+
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.inventory.SlotFurnace;

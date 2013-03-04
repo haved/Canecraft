@@ -1,4 +1,4 @@
-package com.cane.block;
+package com.cane.tileentity;
 
 import net.minecraft.nbt.NBTTagCompound;
 

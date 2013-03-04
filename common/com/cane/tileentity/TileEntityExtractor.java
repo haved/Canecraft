@@ -1,4 +1,4 @@
-package com.cane.block;
+package com.cane.tileentity;
 
 import com.cane.CaneCraft;
 import com.cane.PowerProviderCC;

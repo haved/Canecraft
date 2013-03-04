@@ -90,7 +90,7 @@ public class ItemCane extends ItemCC
                     if (world.getBlockId(x, y, z) == block.blockID)
                     {
                         block.onBlockPlacedBy(world, x, y, z, player);
-                        block.func_85105_g(world, x, y, z, metadata);
+                        block.onPostBlockPlaced(world, x, y, z, metadata);
 
                         world.playSoundEffect((double)((float)x + 0.5F), (double)((float)y + 0.5F), (double)((float)z + 0.5F), block.stepSound.getPlaceSound(), (block.stepSound.getVolume() + 1.0F) / 2.0F, block.stepSound.getPitch() * 0.8F);
                         --itemStack.stackSize;

@@ -4,6 +4,7 @@ import com.cane.Machine.TYPE;
 import com.cane.block.*;
 import com.cane.item.*;
 import com.cane.tileentity.TileEntityCane;
+import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityExtractor;
 import com.cane.tileentity.TileEntityInfuser;
 import com.cane.tileentity.TileEntityRecycler;
@@ -61,6 +62,7 @@ public class CaneCraft
 			GameRegistry.registerTileEntity(TileEntityExtractor.class, "canecraft.tile.extractor");
 			GameRegistry.registerTileEntity(TileEntityInfuser.class, "canecraft.tile.infuser");
 			GameRegistry.registerTileEntity(TileEntityRecycler.class, "canecraft.tile.recycler");
+			GameRegistry.registerTileEntity(TileEntityCaneFertalizer.class, "canecraft.tile.canefertalizer");
 		}
 	}
 	public static class Items

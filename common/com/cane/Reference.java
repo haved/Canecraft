@@ -19,7 +19,7 @@ public class Reference
 	
 	public static final String GUI_LOCATION = "/com/cane/sprites/gui/";
 	
-	public static final boolean debug = true; //Adds power to every machine
+	public static final boolean debug = true; //sets it to debug mode
 	
 	public static class BlockId
 	{

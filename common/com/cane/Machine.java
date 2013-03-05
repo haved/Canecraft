@@ -1,5 +1,6 @@
 package com.cane;
 
+import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityExtractor;
 import com.cane.tileentity.TileEntityInfuser;
 import com.cane.tileentity.TileEntityMachine;
@@ -13,7 +14,7 @@ public class Machine
 		EXTRACTOR_2("Tier 2 Extractor", TileEntityExtractor.class),
 		INFUSER("Cane Infuser", TileEntityInfuser.class),
 		RECYCLER("Recycler", TileEntityRecycler.class),
-		FERTALIZER("Cane Fertalizer"),
+		FERTALIZER("Cane Fertalizer", TileEntityCaneFertalizer.class),
 		SOUL_GROWER("Soul Grower"),
 		CANE_HARVESTER("Cane Harvester"),
 		FUEL_EXTRACTOR("Cane Fuel Extractor"),

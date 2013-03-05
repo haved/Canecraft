@@ -13,8 +13,7 @@ public class TileEntityCaneFertalizer extends TileEntityFertalizer
 		itemNeeded = new ItemStack(CaneCraft.Items.caneUtil, 1, 17);
 		totalTime = 100;
 	}
-	
-	
+		
 	@Override
 	public String getInvName()
 	{
@@ -33,4 +32,9 @@ public class TileEntityCaneFertalizer extends TileEntityFertalizer
 		return "Cane Fertalizer";
 	}
 
+	@Override
+	public int getFaceTexture()
+	{
+		return 4;
+	}
 }

@@ -7,12 +7,12 @@ import net.minecraft.item.ItemStack;
 import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityMachine;
 
-public class ContinerCaneFertalizer extends ContainerMachine
+public class ContainerCaneFertalizer extends ContainerMachine
 {
 	private TileEntityCaneFertalizer tile;
 	private EntityPlayer player;
 	
-	public ContinerCaneFertalizer(EntityPlayer player, TileEntityCaneFertalizer tile)
+	public ContainerCaneFertalizer(EntityPlayer player, TileEntityCaneFertalizer tile)
 	{
 		this.player = player;
 		this.tile = tile;

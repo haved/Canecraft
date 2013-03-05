@@ -12,6 +12,21 @@ public abstract class TileEntityFertalizer extends TileEntityMachine
 	public ItemStack itemNeeded;
 	
 	@Override
+	public int getTexture(int side)
+	{
+		int i = 0;
+		
+		if(side == 0)i = 16 * 3;
+		else if(side == 1)i = 16 * 1;
+		else if(side == face)i = (16 * 4) + getFaceTexture();
+		else i = 16 * 2;
+		
+		return i;
+	}
+	
+	public abstract int getFaceTexture();
+	
+	@Override
 	public void readFromNBT(NBTTagCompound tag)
 	{
 		super.readFromNBT(tag);

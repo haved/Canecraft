@@ -15,7 +15,7 @@ public class ItemCaneUtil extends ItemCC
 		"Compressed Silver Cane Pack", "Compressed Gold Cane Pack",
 		"Compressed Diamond Cane Pack", "Compressed Redstone Cane Pack",
 		"Soul Cane Pack", "Soul Fertalizer", "Cane Fertalizer", "Cane Fuel Cell",
-		"Copmressed Cane Fuel cell"};
+		"Copmressed Cane Fuel Cell"};
 	
 	public ItemCaneUtil(int id)
 	{

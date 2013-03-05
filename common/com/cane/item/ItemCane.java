@@ -133,7 +133,7 @@ public class ItemCane extends ItemCC
    			null,
    			new ItemStack(Item.ingotGold),
    			new ItemStack(Item.diamond),
-   			new ItemStack(CaneCraft.Items.caneUtil, 1, 18),
+   			null,
    			
    			new ItemStack(Item.ingotIron, 9),
    			null,
@@ -141,9 +141,9 @@ public class ItemCane extends ItemCC
    			null,
    			new ItemStack(Item.ingotGold, 9),
    			new ItemStack(Item.diamond, 9),
-   			new ItemStack(CaneCraft.Items.caneUtil, 1, 19),
+   			null,
    			
-   			new ItemStack(CaneCraft.Items.caneUtil, 1, 20)
+   			new ItemStack(CaneCraft.Items.caneUtil, 1, 16)
    		};
 		
 		output[1] = getOre("ingotCopper", 1);

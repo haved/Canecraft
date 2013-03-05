@@ -23,7 +23,7 @@ public class TileEntityCaneFertalizer extends TileEntityFertalizer
 	@Override
 	public void fertalize()
 	{
-		System.out.println();
+		System.out.println("Fertalize:::");
 	}
 
 	@Override

@@ -112,7 +112,7 @@ public class TileEntityExtractor extends TileEntityMachineProcess implements ISi
 		
 		if(in.getItem() == CaneCraft.Items.cane)
 		{
-			if(!tier2 & in.getItemDamage() > 7)return null;
+			if(!tier2 & in.getItemDamage() > 7){return null;}
 			
 			return ItemCane.output[in.getItemDamage()];
 		}
@@ -130,7 +130,7 @@ public class TileEntityExtractor extends TileEntityMachineProcess implements ISi
 	{
 		if(is == null) return 0;
 		
-		if(is.getItemDamage() < 7)
+		if(is.getItemDamage() < 6)
 		{
 			return 60;
 		}

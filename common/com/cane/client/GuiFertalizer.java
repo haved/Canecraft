@@ -46,7 +46,7 @@ public class GuiFertalizer extends GuiContainer
 	@Override
 	protected void drawGuiContainerBackgroundLayer(float var1, int var2, int var3)
 	{
-		int tex = mc.renderEngine.getTexture(Reference.GUI_LOCATION + "fertailzer.png");
+		int tex = mc.renderEngine.getTexture(Reference.GUI_LOCATION + "fertalizer.png");
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
         mc.renderEngine.bindTexture(tex);
         int x = (width - xSize) / 2;

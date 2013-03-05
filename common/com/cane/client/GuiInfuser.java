@@ -3,7 +3,7 @@ package com.cane.client;
 import org.lwjgl.opengl.GL11;
 
 import com.cane.Reference;
-import com.cane.block.ContainerInfuser;
+import com.cane.inventory.ContainerInfuser;
 import com.cane.tileentity.TileEntityInfuser;
 
 import net.minecraft.client.gui.inventory.GuiContainer;

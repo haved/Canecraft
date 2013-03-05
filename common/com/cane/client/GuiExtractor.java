@@ -3,7 +3,7 @@ package com.cane.client;
 import org.lwjgl.opengl.GL11;
 
 import com.cane.Reference;
-import com.cane.block.ContainerExtractor;
+import com.cane.inventory.ContainerExtractor;
 import com.cane.tileentity.TileEntityExtractor;
 
 import net.minecraft.client.gui.inventory.GuiContainer;

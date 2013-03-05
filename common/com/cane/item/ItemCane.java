@@ -8,7 +8,6 @@ import com.cane.block.BlockCane;
 
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -114,7 +113,7 @@ public class ItemCane extends ItemCC
 		return "cane"+itemStack.getItemDamage();
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void getSubItems(int val, CreativeTabs tab, List list)
 	{

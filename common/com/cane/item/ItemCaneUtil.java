@@ -36,7 +36,7 @@ public class ItemCaneUtil extends ItemCC
 		return "caneUtil"+itemStack.getItemDamage();
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void getSubItems(int val, CreativeTabs tab, List list)
 	{

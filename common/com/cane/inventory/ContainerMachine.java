@@ -1,4 +1,4 @@
-package com.cane.block;
+package com.cane.inventory;
 
 import com.cane.tileentity.TileEntityMachine;
 

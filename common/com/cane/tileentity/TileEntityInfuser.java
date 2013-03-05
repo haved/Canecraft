@@ -3,9 +3,6 @@ package com.cane.tileentity;
 import com.cane.CaneCraft;
 import com.cane.PowerProviderCC;
 import com.cane.CaneCraft.Items;
-import com.cane.item.ItemCane;
-
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.ForgeDirection;
 import net.minecraftforge.common.ISidedInventory;

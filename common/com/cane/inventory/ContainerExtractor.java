@@ -1,32 +1,24 @@
-package com.cane.block;
+package com.cane.inventory;
 
-import com.cane.tileentity.TileEntityInfuser;
+import com.cane.tileentity.TileEntityExtractor;
 import com.cane.tileentity.TileEntityMachine;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.inventory.SlotFurnace;
 import net.minecraft.item.ItemStack;
-
-
-public class ContainerInfuser extends ContainerMachine
+public class ContainerExtractor extends ContainerMachine
 {
 	public EntityPlayer player;
-	public TileEntityInfuser tile;
+	public TileEntityExtractor tile;
 	
-	public ContainerInfuser(EntityPlayer player, TileEntityInfuser tile)
+	public ContainerExtractor(EntityPlayer player, TileEntityExtractor tile)
 	{
 		this.player = player;
 		this.tile = tile;
 		
 		addPlayerSlots(player.inventory);
 		addSlots();
-	}
-	
-	@Override
-	public boolean canInteractWith(EntityPlayer player)
-	{
-		return true;
 	}
 	
 	@Override
@@ -64,10 +56,11 @@ public class ContainerInfuser extends ContainerMachine
 	private void addSlots()
 	{
 		this.addSlotToContainer(new Slot(tile, 0, 56, 35));
-		this.addSlotToContainer(new SlotFurnace(player, tile, 1, 116, 35));
+		this.addSlotToContainer(new SlotFurnace(player, tile, 1, 116, 26));
+		this.addSlotToContainer(new SlotFurnace(player, tile, 2, 116, 26 + 18));
 	}
-	
-    @Override
+
+	@Override
 	public TileEntityMachine getTile()
 	{
 		return tile;

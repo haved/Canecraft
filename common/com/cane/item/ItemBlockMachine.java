@@ -32,7 +32,7 @@ public class ItemBlockMachine extends ItemBlockCC
 		}
     }
 	
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@SideOnly(Side.CLIENT)
 	public void getSubItems(int val, CreativeTabs tab, List list)
 	{

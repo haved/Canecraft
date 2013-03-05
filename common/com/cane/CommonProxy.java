@@ -1,9 +1,9 @@
 package com.cane;
 
-import com.cane.block.ContainerExtractor;
-import com.cane.block.ContainerInfuser;
-import com.cane.block.ContainerRecycler;
 import com.cane.client.*;
+import com.cane.inventory.ContainerExtractor;
+import com.cane.inventory.ContainerInfuser;
+import com.cane.inventory.ContainerRecycler;
 import com.cane.tileentity.TileEntityExtractor;
 import com.cane.tileentity.TileEntityInfuser;
 import com.cane.tileentity.TileEntityMachine;

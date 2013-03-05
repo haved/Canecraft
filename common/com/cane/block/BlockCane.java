@@ -3,7 +3,6 @@ package com.cane.block;
 import java.util.Random;
 
 import com.cane.CaneCraft;
-import com.cane.Reference;
 import com.cane.tileentity.TileEntityCane;
 
 import net.minecraft.block.Block;

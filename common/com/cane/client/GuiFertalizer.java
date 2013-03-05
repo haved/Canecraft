@@ -54,6 +54,6 @@ public class GuiFertalizer extends GuiContainer
         drawTexturedModalRect(x, y, 0, 0, xSize, ySize);
         
         int val = tile.getProgress();
-        this.drawTexturedModalRect(x + 62, y + 74, 0, 166, val + 1, 3);
+        this.drawTexturedModalRect(x + 61, y + 74, 0, 166, val + 1, 3);
 	}
 }

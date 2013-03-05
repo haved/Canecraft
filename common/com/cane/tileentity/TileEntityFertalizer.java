@@ -53,7 +53,10 @@ public abstract class TileEntityFertalizer extends TileEntityMachine
 			
 			if(work <= 0)
 			{
-				fertalize();
+				if(worldObj.isRemote)
+				{
+					fertalize();
+				}
 				getNewItems();
 			}
 		}
@@ -77,7 +80,11 @@ public abstract class TileEntityFertalizer extends TileEntityMachine
 	
 	public int getProgress()
 	{
-		return (work * 24 / totalTime);
+		if(work <= 0)
+		{
+			return 0;
+		}
+		return 52 - (work * 52 / totalTime);
 	}
 	
 	public abstract void fertalize();

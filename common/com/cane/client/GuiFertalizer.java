@@ -8,7 +8,6 @@ import net.minecraft.inventory.ContainerChest;
 import net.minecraft.util.StatCollector;
 
 import com.cane.Reference;
-import com.cane.inventory.ContainerCaneFertalizer;
 import com.cane.inventory.ContainerFertalizer;
 import com.cane.inventory.ContainerMachine;
 import com.cane.tileentity.TileEntityCaneFertalizer;

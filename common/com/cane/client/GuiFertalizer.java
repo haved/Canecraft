@@ -4,13 +4,10 @@ import org.lwjgl.opengl.GL11;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.inventory.ContainerChest;
 import net.minecraft.util.StatCollector;
 
 import com.cane.Reference;
 import com.cane.inventory.ContainerFertalizer;
-import com.cane.inventory.ContainerMachine;
-import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityFertalizer;
 
 public class GuiFertalizer extends GuiContainer

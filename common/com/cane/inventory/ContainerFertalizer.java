@@ -3,16 +3,15 @@ package com.cane.inventory;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
-
-import com.cane.tileentity.TileEntityCaneFertalizer;
+import com.cane.tileentity.TileEntityFertalizer;
 import com.cane.tileentity.TileEntityMachine;
 
-public class ContainerCaneFertalizer extends ContainerMachine
+public class ContainerFertalizer extends ContainerMachine
 {
-	private TileEntityCaneFertalizer tile;
+	private TileEntityFertalizer tile;
 	private EntityPlayer player;
 	
-	public ContainerCaneFertalizer(EntityPlayer player, TileEntityCaneFertalizer tile)
+	public ContainerFertalizer(EntityPlayer player, TileEntityFertalizer tile)
 	{
 		this.player = player;
 		this.tile = tile;

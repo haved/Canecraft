@@ -4,10 +4,12 @@ import org.lwjgl.opengl.GL11;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.inventory.ContainerChest;
 import net.minecraft.util.StatCollector;
 
 import com.cane.Reference;
 import com.cane.inventory.ContainerCaneFertalizer;
+import com.cane.inventory.ContainerFertalizer;
 import com.cane.inventory.ContainerMachine;
 import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityFertalizer;
@@ -18,22 +20,10 @@ public class GuiFertalizer extends GuiContainer
 	
 	public GuiFertalizer(EntityPlayer player, TileEntityFertalizer tile)
 	{
-		super(getContainer(player, tile));
+		super(new ContainerFertalizer(player, tile));
 		this.xSize = 176;
 		this.ySize = 166;
 		this.tile = tile;
-	}
-	
-	public static ContainerMachine getContainer(EntityPlayer player, TileEntityFertalizer tile)
-	{
-		if(tile instanceof TileEntityCaneFertalizer)
-		{
-			return new ContainerCaneFertalizer(player, (TileEntityCaneFertalizer)tile);
-		}
-		else
-		{
-			return null;
-		}
 	}
 	
 	@Override

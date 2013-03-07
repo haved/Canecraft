@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 
 public class TileEntityRecycler extends TileEntityMachineProcess
 {
-	public static int chanceForScrap = 15;
+	public static int chanceForScrap = 8;
 	
 	public TileEntityRecycler()
 	{
@@ -43,7 +43,7 @@ public class TileEntityRecycler extends TileEntityMachineProcess
 		}
 		else
 		{
-			items[1].stackSize = Math.min(items[1].stackSize + 1, items[0].getMaxStackSize());
+			items[1].stackSize = Math.min(items[1].stackSize + 1, items[1].getMaxStackSize());
 		}
 	}
 	

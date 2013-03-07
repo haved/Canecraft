@@ -74,6 +74,7 @@ public abstract class TileEntityFertalizer extends TileEntityMachine
 			{
 				decrStackSize(i, 1);
 				work = totalTime;
+				break;
 			}
 		}
 	}

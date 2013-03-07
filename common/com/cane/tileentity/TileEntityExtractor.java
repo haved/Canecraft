@@ -154,7 +154,7 @@ public class TileEntityExtractor extends TileEntityMachineProcess implements ISi
 		}
 		else
 		{
-			items[1].stackSize = Math.min(items[1].stackSize + is.stackSize, items[0].getMaxStackSize());
+			items[1].stackSize = Math.min(items[1].stackSize + is.stackSize, items[1].getMaxStackSize());
 		}
 	}
 	

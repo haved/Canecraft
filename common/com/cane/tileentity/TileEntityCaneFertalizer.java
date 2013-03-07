@@ -25,9 +25,41 @@ public class TileEntityCaneFertalizer extends TileEntityFertalizer
 	@Override
 	public void fertalize()
 	{
-		System.out.println("Fertalize:::");
+		for(int i = -2; i < 3; i++)
+		{
+			for(int j = -2; j < 3; j++)
+			{
+				fertalizeCane(xCoord + i, yCoord, zCoord + j);
+			}
+		}
 	}
-
+	
+	private boolean isGrowableCane(int x, int y, int z)
+	{
+		return worldObj.getBlockTileEntity(x, y, z) instanceof TileEntityCane &&
+				worldObj.getBlockMetadata(x, y, z) < 14;
+	}
+	
+	private void fertalizeCane(int x, int y, int z)
+	{
+		while(true)
+		{
+			if(!isGrowableCane(x, y + 1, z))
+			{
+				growCane(x, y, z);
+				break;
+			}
+			
+			y++;
+		}
+	}
+	
+	private void growCane(int x, int y, int z)
+	{
+		isGrowableCane(x, y, z);
+		((TileEntityCane) worldObj.getBlockTileEntity(x, y, z)).grow(CANE_FERT_AMAOUNT);
+	}
+	
 	@Override
 	public String getDisplayName()
 	{

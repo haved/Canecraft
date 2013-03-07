@@ -53,10 +53,7 @@ public abstract class TileEntityFertalizer extends TileEntityMachine
 			
 			if(work <= 0)
 			{
-				if(worldObj.isRemote)
-				{
-					fertalize();
-				}
+				fertalize();
 				getNewItems();
 			}
 		}

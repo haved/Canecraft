@@ -1,0 +1,16 @@
+[
+{
+  "modid": "CaneCraft",
+  "name": "Cane Craft",
+  "description": "Adds new Cane",
+  "credits": "haved",
+  "logoFile": "/canecraft/texture/logo.png",
+  "mcversion": "1.4.7",
+  "authors": [ "haved" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+     "MinecraftForge"
+  ]
+}
+]

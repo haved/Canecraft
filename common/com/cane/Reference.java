@@ -16,10 +16,10 @@ public class Reference
 	public static final String MOD_NAME = "Cane Craft";
 	public static final String VERSION = "0.9.1";
 	
-	public static final String BLOCK_SPRITE = "/com/cane/sprites/blocks.png";
-	public static final String ITEM_SPRITE = "/com/cane/sprites/items.png";
+	public static final String BLOCK_SPRITE = "/canecraft/texture/blocks.png";
+	public static final String ITEM_SPRITE = "/canecraft/texture/items.png";
 	
-	public static final String GUI_LOCATION = "/com/cane/sprites/gui/";
+	public static final String GUI_LOCATION = "/canecraft/texture/gui/";
 	
 	public static final boolean debug = true; //sets it to debug mode
 	

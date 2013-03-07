@@ -9,9 +9,9 @@ import net.minecraft.world.World;
 public class TileEntityCane extends TileEntity
 {
 	public static final int[] growTime = new int[]{
-		12000, 12000, 12000, 14000, 18000, 24000, 16000,
-		48000, 48000, 48000, 56000, 72000, 96000, 64000,
-		64000};
+		120000, 120000, 120000, 140000, 180000, 240000, 160000,
+		480000, 480000, 480000, 560000, 720000, 960000, 640000,
+		640000};
 	
 	public int type;//I,C,T,S,G,D,R,CI,CC,CT,CS,CG,CD,CR,S
 	public int timeLeft;

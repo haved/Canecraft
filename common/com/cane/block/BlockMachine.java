@@ -82,7 +82,7 @@ public class BlockMachine extends BlockCC
 	@Override
 	public int getBlockTextureFromSideAndMetadata(int side, int metadata)
 	{
-		if(metadata < 7)
+		if(metadata < 8)
 		{
 			if(side == 1)return 16 * 1;
 			if(side == 1)return 16 * 3;

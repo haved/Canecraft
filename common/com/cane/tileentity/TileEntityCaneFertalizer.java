@@ -6,6 +6,8 @@ import net.minecraft.item.ItemStack;
 
 public class TileEntityCaneFertalizer extends TileEntityFertalizer
 {
+	public static int CANE_FERT_AMAOUNT;
+	
 	public TileEntityCaneFertalizer()
 	{
 		items = new ItemStack[9];

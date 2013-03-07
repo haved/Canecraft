@@ -4,6 +4,7 @@ import java.io.File;
 
 import com.cane.item.ItemCane;
 import com.cane.tileentity.TileEntityCane;
+import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityRecycler;
 import com.cane.tileentity.TileEntitySoulFertalizer;
 
@@ -64,6 +65,9 @@ public class Reference
 		
 		TileEntitySoulFertalizer.SOUL_FERT_AMAOUNT = cfg.get(Configuration.CATEGORY_GENERAL,
 				"SoulFertaizerBoostOnCane", TileEntitySoulFertalizer.SOUL_FERT_AMAOUNT).getInt();
+		
+		TileEntityCaneFertalizer.CANE_FERT_AMAOUNT = cfg.get(Configuration.CATEGORY_GENERAL,
+				"CaneFertaizerBoostOnCane", TileEntityCaneFertalizer.CANE_FERT_AMAOUNT).getInt();
 		
 		cfg.save();
 	}

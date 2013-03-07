@@ -1,11 +1,10 @@
 package com.cane;
 
 import com.cane.client.*;
-import com.cane.inventory.ContainerCaneFertalizer;
 import com.cane.inventory.ContainerExtractor;
+import com.cane.inventory.ContainerFertalizer;
 import com.cane.inventory.ContainerInfuser;
 import com.cane.inventory.ContainerRecycler;
-import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityExtractor;
 import com.cane.tileentity.TileEntityFertalizer;
 import com.cane.tileentity.TileEntityInfuser;
@@ -59,9 +58,9 @@ public class CommonProxy implements IGuiHandler
 		{
 			return new ContainerRecycler(player, (TileEntityRecycler)tile);
 		}
-		else if(tile instanceof TileEntityCaneFertalizer)
+		else if(tile instanceof TileEntityFertalizer)
 		{
-			return new ContainerCaneFertalizer(player, (TileEntityCaneFertalizer)tile);
+			return new ContainerFertalizer(player, (TileEntityFertalizer)tile);
 		}
 		
 		return null;

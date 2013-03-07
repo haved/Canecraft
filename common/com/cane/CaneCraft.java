@@ -8,6 +8,7 @@ import com.cane.tileentity.TileEntityCaneFertalizer;
 import com.cane.tileentity.TileEntityExtractor;
 import com.cane.tileentity.TileEntityInfuser;
 import com.cane.tileentity.TileEntityRecycler;
+import com.cane.tileentity.TileEntitySoulFertalizer;
 
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -63,6 +64,7 @@ public class CaneCraft
 			GameRegistry.registerTileEntity(TileEntityInfuser.class, "canecraft.tile.infuser");
 			GameRegistry.registerTileEntity(TileEntityRecycler.class, "canecraft.tile.recycler");
 			GameRegistry.registerTileEntity(TileEntityCaneFertalizer.class, "canecraft.tile.canefertalizer");
+			GameRegistry.registerTileEntity(TileEntitySoulFertalizer.class, "canecraft.tile.soulfertalizer");
 		}
 	}
 	public static class Items

@@ -5,6 +5,7 @@ import com.cane.tileentity.TileEntityExtractor;
 import com.cane.tileentity.TileEntityInfuser;
 import com.cane.tileentity.TileEntityMachine;
 import com.cane.tileentity.TileEntityRecycler;
+import com.cane.tileentity.TileEntitySoulFertalizer;
 
 public class Machine
 {
@@ -15,7 +16,7 @@ public class Machine
 		INFUSER("Cane Infuser", TileEntityInfuser.class),
 		RECYCLER("Recycler", TileEntityRecycler.class),
 		FERTALIZER("Cane Fertalizer", TileEntityCaneFertalizer.class),
-		SOUL_GROWER("Soul Grower"),
+		SOUL_GROWER("Soul Grower", TileEntitySoulFertalizer.class),
 		CANE_HARVESTER("Cane Harvester"),
 		FUEL_EXTRACTOR("Cane Fuel Extractor"),
 		CANE_HOLDER("Cane Holder");

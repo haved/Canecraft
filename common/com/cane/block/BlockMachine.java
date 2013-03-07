@@ -140,6 +140,14 @@ public class BlockMachine extends BlockCC
 	        	return true;
 	        }
 		}
+		else if(world.getBlockMetadata(x, y, z) == 5)
+		{
+			if(plant.getPlantID(world, x, y, z) == CaneCraft.Blocks.cane.blockID &&
+				plant.getPlantMetadata(world, x, y, z) == 14)
+	        {
+	        	return true;
+	        }
+		}
 		
 		return super.canSustainPlant(world, x, y, z, direction, plant);
 	}

@@ -5,6 +5,7 @@ import java.io.File;
 import com.cane.item.ItemCane;
 import com.cane.tileentity.TileEntityCane;
 import com.cane.tileentity.TileEntityRecycler;
+import com.cane.tileentity.TileEntitySoulFertalizer;
 
 import net.minecraftforge.common.Configuration;
 
@@ -60,6 +61,9 @@ public class Reference
 		
 		TileEntityRecycler.chanceForScrap = cfg.get(Configuration.CATEGORY_GENERAL,
 				"getSoulFertalizer1OutOf", TileEntityRecycler.chanceForScrap).getInt();
+		
+		TileEntitySoulFertalizer.SOUL_FERT_AMAOUNT = cfg.get(Configuration.CATEGORY_GENERAL,
+				"SoulFertaizerBoostOnCane", TileEntitySoulFertalizer.SOUL_FERT_AMAOUNT).getInt();
 		
 		cfg.save();
 	}

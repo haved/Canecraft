@@ -109,13 +109,6 @@ public class BlockCane extends BlockCC implements IPlantable
 		blockIdUnder == CaneCraft.Blocks.machine.blockID &
 		blockDataUnder == 5;
 	}
-    public boolean hasWater(World w, int x, int y, int z)
-    {
-    	return w.getBlockMaterial(x, y, z+1) == Material.water ||
-    		   w.getBlockMaterial(x, y, z-1) == Material.water ||
-    		   w.getBlockMaterial(x+1, y, z) == Material.water ||
-    		   w.getBlockMaterial(x-1, y, z) == Material.water;
-    }
     protected final void checkBlockCoordValid(World par1World, int par2, int par3, int par4)
     {
         if (!this.canBlockStay(par1World, par2, par3, par4))

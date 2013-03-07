@@ -119,7 +119,7 @@ public class BlockMachine extends BlockCC
 	@Override
 	public int getLightValue(IBlockAccess world, int x, int y, int z)
 	{
-		if(world.getBlockMetadata(x, y, z) == 7)
+		if(world.getBlockMetadata(x, y, z) == 8)
 		{
 			return 15;
 		}
